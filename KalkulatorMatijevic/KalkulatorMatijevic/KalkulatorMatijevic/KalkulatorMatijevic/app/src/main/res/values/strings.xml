@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">KalkulatorMatijevic</string>
+    <string name="bmiTitle">BMI Calc</string>
+    <string name="macrosTitle">Macros</string>
+    <string name="calcTitle">Calculator</string>
+    <string name="appTitle">CalcuMany</string>
+    <string name="appFooter">Made By Marco - 2024</string>
+    <string name="calculate">Calculate</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="gender">Gender</string>
+    <string name="age">Age</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="enterNumOne">Enter first number...</string>
+    <string name="enterNumTwo">Enter second number...</string>
+    <string name="enterAge">Enter your age...</string>
+    <string name="enterHeight">Enter your height...</string>
+    <string name="enterWeight">Enter your weight...</string>
+    <string name="kilograms">Kilograms</string>
+    <string name="pounds">Pounds</string>
+    <string name="inches">Inches</string>
+    <string name="centimeters">Centimeters</string>
+    <string name="roboto">36sp</string>
+    <string name="poppins">48sp</string>
+    <string name="typewriter">24sp</string>
+    <string name="vogue">16sp</string>
+    <string name="changeFontText">Change Font</string>
+    <string name="robotoPath">font/roboto_black.ttf</string>
+    <string name="poppinsPath">font/poppins_black.ttf</string>
+    <string name="typewriterPath">font/typewriter.ttf</string>
+    <string name="voguePath">font/vogue.ttf</string>
+</resources>

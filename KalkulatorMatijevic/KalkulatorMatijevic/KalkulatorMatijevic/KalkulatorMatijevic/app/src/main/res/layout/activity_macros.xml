@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MacrosActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/macrosTitle"
+        android:textSize="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.021"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/iconImageView"
+        android:layout_width="46dp"
+        android:layout_height="45dp"
+        android:clickable="true"
+        android:onClick="onBackClick"
+        android:src="@drawable/arrow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupId"
+        android:layout_width="218dp"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.647"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.135"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/radio_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/male" />
+
+        <RadioButton
+            android:id="@+id/radio_female"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="@string/female" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/genderText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gender"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.153"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/ageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/age"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.237"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editAgeNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/enterAge"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.621"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.228"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editHeightNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/enterHeight"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.621"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.323"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/weightText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weight"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.411"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/heightText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/height"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.327"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editWeightNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/enterWeight"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.621"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.412"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        android:onClick="calculateMacros"/>
+
+    <TextView
+        android:id="@+id/resultView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="48dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.616"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
