@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ListaMatijevic</string>
+    <string name="deadliftTitle">Mrtvo Dizanje</string>
+    <string name="deadliftDesc">Mrtvo dizanje je vježba s utezima u kojoj se opterećeni uteg ili šipka odižu od tla do razine kukova, a zatim spuštaju na tlo.</string>
+    <string name="deadliftTech">Stanite sa stopalima otprilike u širini kukova, držeći šipku blizu potkoljenica. Uhvatite šipku rukama u širini ramena. Držite leđa ravno dok podižete šipku ispravljajući kukove i koljena.</string>
+
+    <string name="squatTitle">Čučanj</string>
+    <string name="squatDesc">Čučanj je složena vježba za cijelo tijelo koja prvenstveno trenira mišiće bedara, kukova i stražnjice, mišić kvadriceps femoris, tetive koljena, kao i jačanje kostiju, ligamenata i umetanje tetiva u donjem dijelu tijela.</string>
+    <string name="squatTech">Stanite sa stopalima u širini ramena, prstima lagano usmjerenim prema van. Spustite tijelo savijanjem koljena i kukova, držeći prsa gore, a leđa ravna. Čučnite dok vam bedra ne budu paralelna s tlom, a zatim se odgurnite u početni položaj.</string>
+
+    <string name="benchTitle">Bench Press</string>
+    <string name="benchDesc">Potisak s klupe je vježba snage za gornji dio tijela koja se sastoji od pritiskanja utega prema gore iz ležećeg položaja.</string>
+    <string name="benchTech">Lezite na ravnu klupu, stopala ravna na podu. Uhvatite šipku malo šire od širine ramena. Spustite šipku na prsa, a zatim je pritisnite prema gore dok vam ruke ne budu ravne.</string>
+
+    <string name="pullUpTitle">Pull Up</string>
+    <string name="pullUpDesc">Povlačenje je vježba koja se izvodi visinjem na vodoravnoj šipki i podizanjem tijela prema gore. Koristi se za razvoj snage gornjeg dijela tijela.</string>
+    <string name="pullUpTech">Držeći se za vodoravnu šipku s rukama malo širim od širine ramena, podignite tijelo savijanjem laktova dok vam brada ne bude iznad šipke, a zatim se kontrolirano spustite.</string>
+
+    <string name="plankTitle">Plank</string>
+    <string name="plankDesc">Plank je statična vježba za jačanje trbušnih mišića, leđnih i stabilizacijskih mišića. Izvodi se držanjem tijela u ravnoj liniji s osloncem na podlaktice i prste.</string>
+    <string name="plankTech">Lezite na pod, podignite tijelo tako da ste oslonjeni na podlaktice i prste, držite tijelo u ravnoj liniji od glave do pete, zadržite položaj što je duže moguće.</string>
+
+    <string name="barbellTitle">Barbell Curl</string>
+    <string name="barbellDesc">Pregib utegom je vježba za razvoj bicepsa. Izvodi se držeći šipku ispred tijela i savijajući lakat prema gore.</string>
+    <string name="barbellTech">Stanite uspravno, ravnomjerno držite šipku s rukama okrenutim prema gore. Savijte laktove prema gore dok vam šipka ne dosegne ramena, a zatim se kontrolirano spustite.</string>
+
+    <string name="latPullTitle">Lat Pulldown</string>
+    <string name="latPullDesc">Lat pulldown je vježba za razvoj mišića leđa. Izvodi se sjedeći na stroju za lat pulldown s rukama podignutim prema vodoravnoj traci.</string>
+    <string name="latPullTech">Sjednite na spravu držeći šipku šire od širine ramena s rukama okrenutim prema dolje. Povucite šipku prema dolje prema prsima, zatim je polako otpustite natrag u početni položaj.</string>
+
+    <string name="deadliftWeb">https://www.verywellfit.com/how-to-do-the-deadlift-3498608</string>
+    <string name="squatWeb">https://www.realsimple.com/health/fitness-exercise/workouts/squat-form</string>
+    <string name="benchWeb">https://hr.the-nutrition.com/single-clanak/Bench-press---Tehnika-izvođenja-i-savjeti/427/filtriraj-po/datum/rangirajuci/padajuce/cilj/vjezbe/stranica/2</string>
+    <string name="plankWeb">https://www.puregym.com/exercises/abs/planks/</string>
+    <string name="latWeb">https://www.puregym.com/exercises/back/lat-exercises/</string>
+    <string name="pullWeb">https://www.verywellfit.com/pullup-bar-exercises-for-upper-body-strength-3120735</string>
+    <string name="barbellWeb">https://www.menshealth.com/fitness/a42744729/barbell-curls/</string>
+    <string name="notification">Nova Notifikacija</string>
+    <string name="hello_blank_fragment">Pozdrav prazni fragment</string>
+    <string name="msg_token_fmt">Token: </string>
+</resources>

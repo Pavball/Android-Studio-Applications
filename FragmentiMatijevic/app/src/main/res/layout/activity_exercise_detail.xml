@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_exercise_detail.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="0dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        style="@style/MyButtonViewStyle"/>
+
+    <TextView
+        android:id="@+id/textViewExerciseName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        style="@style/MyDetailsViewStyle" />
+
+    <ImageView
+        android:id="@+id/imageViewExercise"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/textViewExerciseName"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewExerciseDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewExercise"
+        android:layout_marginBottom="8dp"
+        style="@style/MyDetailsViewStyle"/>
+
+    <TextView
+        android:id="@+id/textViewExerciseTechnique"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewExerciseDescription"
+        android:layout_marginBottom="8dp"
+        style="@style/MyDetailsViewStyle"/>
+
+    <Button
+        android:id="@+id/buttonOpenWebsite"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewExerciseTechnique"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="9dp"
+        android:onClick="openWebsite"
+        android:text="Open Website"
+        style="@style/MyButtonViewStyle"/>
+
+
+</RelativeLayout>
