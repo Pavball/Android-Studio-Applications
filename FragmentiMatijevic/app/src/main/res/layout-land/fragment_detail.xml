@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".DetailFragment"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <TextView
+        android:id="@+id/textViewExerciseName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        style="@style/MyDetailsViewStyle" />
+
+    <ImageView
+        android:id="@+id/imageViewExercise"
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:layout_below="@id/textViewExerciseName"
+        android:layout_marginBottom="8dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/textViewExerciseDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewExercise"
+        android:textSize="12dp"
+        android:layout_marginBottom="8dp"
+        style="@style/MyDetailsViewStyle"/>
+
+    <TextView
+        android:id="@+id/textViewExerciseTechnique"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewExerciseDescription"
+        android:textSize="12dp"
+        android:layout_marginBottom="8dp"
+        style="@style/MyDetailsViewStyle"/>
+
+    <Button
+        android:id="@+id/buttonOpenWebsite"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewExerciseTechnique"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="9dp"
+        android:onClick="openWebsite"
+        android:text="Open Website"
+        style="@style/MyButtonViewStyle"/>
+
+
+</LinearLayout>

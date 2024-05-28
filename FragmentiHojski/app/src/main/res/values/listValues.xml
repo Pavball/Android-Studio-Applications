@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nazivi">
+        <item>RTX 3090 Ti</item>
+        <item>RTX 3090</item>
+        <item>RTX 3080 Ti</item>
+        <item>RTX 3080</item>
+        <item>RTX 3070 Ti</item>
+        <item>RTX 3070</item>
+        <item>RTX 3060 Ti</item>
+        <item>RTX 3060</item>
+        <item>RTX 3050</item>
+        <item>RX 6900 XT</item>
+        <item>RX 6800 XT</item>
+        <item>RX 6800</item>
+        <item>RX 6700 XT</item>
+        <item>RX 6600 XT</item>
+    </string-array>
+
+    <string-array name="opisi">
+        <item>RTX 3090 Ti - TODO</item>
+        <item>Top-tier GPU in the 30 series lineup.
+            Aimed at enthusiast gamers and professionals.
+            Features 24 GB of GDDR6X memory.
+            Offers excellent performance for 4K gaming and content creation tasks like 3D rendering and video editing.
+        </item>
+        <item>RTX 3080 Ti - TODO</item>
+        <item>
+            High-end GPU suitable for enthusiast gamers.
+            Comes with 10 GB of GDDR6X memory.
+            Provides great performance for gaming at 1440p and 4K resolutions.
+            Widely regarded as offering a very good balance between price and performance.
+        </item>
+        <item>RTX 3070 Ti - TODO</item>
+        <item>
+            Positioned as a high-performance GPU for mainstream gamers.
+            Features 8 GB of GDDR6 memory.
+            Offers excellent performance for gaming at 1440p resolution and good performance for 4K gaming.
+        </item>
+        <item>
+            A mid-range GPU aimed at gamers who want good performance without breaking the bank.
+            Comes with 8 GB of GDDR6 memory.
+            Provides solid performance for gaming at 1080p and 1440p resolutions.
+        </item>
+        <item>Entry-level GPU in the 30 series lineup.
+            Suitable for budget-conscious gamers.
+            Offers 12 GB of GDDR6 memory.
+            Provides decent performance for gaming at 1080p resolution and light 1440p gaming.
+        </item>
+        <item>RTX 3050 - TODO</item>
+        <item>The flagship of AMD\'s RX 6000 series, featuring the RDNA 2 architecture. It offers excellent 4K gaming performance and competes with Nvidia\'s RTX 3090.</item>
+        <item>Another high-end offering from AMD, slightly below the 6900 XT in performance but still providing excellent gaming capabilities, especially at 1440p and 4K resolutions.</item>
+        <item>Positioned slightly lower than the 6800 XT but still delivering strong performance, particularly for high-resolution gaming. It\'s a great choice for gamers aiming for 1440p gaming.</item>
+        <item>Designed to deliver exceptional performance for 1440p gaming, offering a balance of price and performance. It\'s a good choice for gamers who prioritize high frame rates at QHD resolutions.</item>
+        <item>Positioned as a mid-range option, offering solid 1080p and 1440p gaming performance at a more affordable price point compared to the higher-end models.</item>
+    </string-array>
+
+</resources>

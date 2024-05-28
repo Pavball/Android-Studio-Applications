@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "396317238347",
+    "project_id": "fragmentimatijevic",
+    "storage_bucket": "fragmentimatijevic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396317238347:android:46547f2548c732bdab19ce",
+        "android_client_info": {
+          "package_name": "com.example.listamatijevic"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnnRCscKBUcbRWTX7nCDP25LAX6TEU7i0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

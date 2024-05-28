@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ListaHojski</string>
+    <string name="naziv">Liste des cartes graphiques</string>
+    <string name="open_page">Page ouverte</string>
+    <string name="share">Partager</string>
+</resources>

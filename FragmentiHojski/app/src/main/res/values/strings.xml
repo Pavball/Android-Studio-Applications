@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FragmentiHojski</string>
+    <string name="naziv">Popis grafickih kartica</string>
+    <string name="open_page">Otvori stranicu</string>
+    <string name="links" translatable="false">https://en.wikipedia.org/wiki/GeForce_30_series</string>
+    <string name="share">Podijeli</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
