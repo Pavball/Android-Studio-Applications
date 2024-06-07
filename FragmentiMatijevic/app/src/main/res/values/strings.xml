@@ -36,7 +36,6 @@
     <string name="pullWeb">https://www.verywellfit.com/pullup-bar-exercises-for-upper-body-strength-3120735</string>
     <string name="barbellWeb">https://www.menshealth.com/fitness/a42744729/barbell-curls/</string>
     <string name="notification">New Notification</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="msg_token_fmt">Token: </string>
 

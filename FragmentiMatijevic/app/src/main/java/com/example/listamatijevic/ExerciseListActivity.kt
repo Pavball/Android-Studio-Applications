@@ -125,7 +125,7 @@ class ExerciseListActivity : AppCompatActivity(), ExerciseAdapter.OnExerciseClic
         // Get the exercise ID from the adapter
         val exerciseId = adapter.getItemId(position)
 
-        val orientation = resources.configuration.orientation
+        val orientation = getResources().configuration.orientation
         if (orientation == Configuration.ORIENTATION_PORTRAIT) {
             // Start ExerciseDetailActivity and pass the exercise ID
             val intent = Intent(this, ExerciseDetailActivity::class.java)
@@ -141,6 +141,7 @@ class ExerciseListActivity : AppCompatActivity(), ExerciseAdapter.OnExerciseClic
                 .commit()
         }
     }
+
 
 
 
