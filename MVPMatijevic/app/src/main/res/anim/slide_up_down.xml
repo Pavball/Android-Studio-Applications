@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Pomakni element dolje -->
+    <translate
+        android:fromYDelta="0%"
+        android:toYDelta="100%"
+        android:duration="1000" />
+
+    <!-- Vrati element na početnu poziciju -->
+    <translate
+        android:fromYDelta="100%"
+        android:toYDelta="0%"
+        android:startOffset="1000"
+        android:duration="500" />
+</set>

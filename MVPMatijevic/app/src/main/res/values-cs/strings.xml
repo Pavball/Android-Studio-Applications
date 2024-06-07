@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ListaMatijevic</string>
+    <string name="deadliftTitle">Mrtvý tah</string>
+    <string name="deadliftDesc">Mrtvý tah je cvik se zátěží, při kterém se zatížená činka nebo činka zvedne ze země do úrovně kyčlí a poté se spustí na zem.</string>
+    <string name="deadliftTech">Postavte se s nohama přibližně na šířku boků, tyč držte blízko holení. Uchopte tyč rukama na šířku ramen. Při zvedání tyče držte rovná záda narovnáváním kyčlí a kolen.</string>
+
+    <string name="squatTitle">Squat</string>
+    <string name="squatDesc">Dřep je komplexní cvik pro celé tělo, který procvičuje především svaly stehen, kyčlí a hýždí, m. quadriceps femoris, hamstringy, ale také posilování kostí, vazů a úpony šlach v dolní části bérce. tělo.</string>
+    <string name="squatTech">Postavte se s nohama na šířku ramen, prsty mírně směřují ven. Snižte své tělo ohýbáním kolen a boků, držte hrudník nahoře a záda rovně. Dřepněte si, dokud nebudou vaše stehna rovnoběžná s podlahou, a poté se zatlačte do výchozí polohy.</string>
+
+    <string name="benchTitle">Bench Press</string>
+    <string name="benchDesc">Bench press je posilovací cvik na horní část těla, který se skládá z tlačení činky nahoru z polohy vleže.</string>
+    <string name="benchTech">Lehněte si na rovnou lavici, chodidla na podlaze. Uchopte tyč o něco širší, než je šířka ramen. Spusťte tyč k hrudi a poté ji zatlačte nahoru, dokud nebudou vaše paže rovné.</string>
+
+    <string name="pullUpTitle">Pull Up</string>
+    <string name="pullUpDesc">Přítah je cvik prováděný postavením na hrazdu a zvednutím těla nahoru. Používá se k rozvoji síly horní části těla.</string>
+    <string name="pullUpTech">Držte vodorovnou tyč s rukama mírně širšími než na šířku ramen, zvedněte tělo ohnutím loktů, dokud nebude brada nad tyčí, a poté se kontrolovaně spusťte.</string>
+
+    <string name="plankTitle">Plank</string>
+    <string name="plankDesc">Plank je statické cvičení na posílení břišních svalů, zádových a stabilizačních svalů. Provádí se držením těla v přímé linii s oporou o předloktí a prsty.</string>
+    <string name="plankTech">Lehněte si na zem, zvedněte tělo tak, abyste byli opřeni o předloktí a prsty, držte tělo v přímé linii od hlavy k patě, v pozici vydržte co nejdéle.</string>
+
+    <string name="barbellTitle">Barbell Curl</string>
+    <string name="barbellDesc">Barbell curl je cvičení pro rozvoj bicepsů. Provádí se držením tyče před tělem a ohnutím lokte nahoru.</string>
+    <string name="barbellTech">Postavte se rovně, držte tyč rovnoměrně s rukama nahoru. Ohněte lokty nahoru, dokud tyč nedosáhne ramen, pak se kontrolovaně snižte.</string>
+
+    <string name="latPullTitle">Lat Pulldown</string>
+    <string name="latPullDesc">Lat pulldown je cvičení pro rozvoj zádových svalů. Provádí se vsedě na stahovacím stroji lat s pažemi zvednutými směrem k vodorovné tyči.</string>
+    <string name="latPullTech">Posaďte se na stroj a držte tyč širší než na šířku ramen s rukama dolů. Přitáhněte tyč dolů k hrudi a poté ji pomalu uvolněte zpět do výchozí polohy.</string>
+    <string name="deadliftWeb">https://www.verywellfit.com/how-to-do-the-deadlift-3498608</string>
+    <string name="squatWeb">https://www.realsimple.com/health/fitness-exercise/workouts/squat-form</string>
+    <string name="benchWeb">https://hr.the-nutrition.com/single-clanak/Bench-press---Tehnika-izvođenja-i-savjeti/427/filtriraj-po/datum/rangirajuci/padajuce/cilj/vjezbe/stranica/2</string>
+    <string name="plankWeb">https://www.puregym.com/exercises/abs/planks/</string>
+    <string name="latWeb">https://www.puregym.com/exercises/back/lat-exercises/</string>
+    <string name="pullWeb">https://www.verywellfit.com/pullup-bar-exercises-for-upper-body-strength-3120735</string>
+    <string name="barbellWeb">https://www.menshealth.com/fitness/a42744729/barbell-curls/</string>
+    <string name="notification">Nové oznámení</string>
+    <string name="hello_blank_fragment">Ahoj prázdný fragment</string>
+    <string name="msg_token_fmt">Token: </string>
+</resources>

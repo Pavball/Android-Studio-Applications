@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">ListaMatijevic</string>
+    <string name="deadliftTitle">Deadlift</string>
+    <string name="deadliftDesc">The deadlift is a weight training exercise in which a loaded barbell or bar is lifted off the ground to the level of the hips, then lowered to the ground.</string>
+    <string name="deadliftTech">Stand with feet about hip-width apart, keeping the bar close to your shins. Grip the bar with hands shoulder-width apart. Keep your back straight as you lift the bar by straightening your hips and knees.</string>
+
+    <string name="squatTitle">Squat</string>
+    <string name="squatDesc">The squat is a compound, full body exercise that trains primarily the muscles of the thighs, hips and buttocks, quadriceps femoris muscle, hamstrings, as well as strengthening the bones, ligaments and insertion of the tendons throughout the lower body.</string>
+    <string name="squatTech">Stand with feet shoulder-width apart, toes pointed slightly outwards. Lower your body by bending your knees and hips, keeping your chest up and back straight. Squat until your thighs are parallel to the ground, then push back up to starting position.</string>
+
+    <string name="benchTitle">Bench Press</string>
+    <string name="benchDesc">The bench press is an upper-body strength-training exercise that consists of pressing a weight upwards from a supine position.</string>
+    <string name="benchTech">Lie on a flat bench, feet flat on the floor. Grip the bar slightly wider than shoulder-width apart. Lower the bar to your chest, then press it back up until your arms are straight.</string>
+
+    <string name="pullUpTitle">Pull Up</string>
+    <string name="pullUpDesc">Pull-up is an exercise performed by hanging on a horizontal bar and lifting the body upwards. It is used to develop upper body strength.</string>
+    <string name="pullUpTech">Holding onto a horizontal bar with your hands slightly wider than shoulder-width apart, lift your body up by bending your elbows until your chin is over the bar, then lower yourself in a controlled manner.</string>
+
+    <string name="plankTitle">Plank</string>
+    <string name="plankDesc">Plank is a static exercise for strengthening the abdominal muscles, back and stabilization muscles. It is performed by keeping the body in a straight line with support on the forearms and fingers.</string>
+    <string name="plankTech">Lie on the floor, raise your body so that you are supported on your forearms and fingers, keep your body in a straight line from head to heel, hold the position as long as possible.</string>
+
+    <string name="barbellTitle">Barbell Curl</string>
+    <string name="barbellDesc">Barbell curl is an exercise for biceps development. It is performed by holding the bar in front of the body and bending the elbow upwards.</string>
+    <string name="barbellTech">Stand straight, hold the bar evenly with your arms facing up. Bend your elbows up until the bar reaches your shoulders, then lower yourself in a controlled manner.</string>
+
+    <string name="latPullTitle">Lat Pulldown</string>
+    <string name="latPullDesc">Lat pulldown is an exercise for developing back muscles. Performed seated on a lat pulldown machine with arms raised toward the horizontal bar.</string>
+    <string name="latPullTech">Sit on the machine, holding the bar wider than shoulder-width apart with your hands facing down. Pull the bar down toward your chest, then slowly release it back to the starting position.</string>
+
+    <string name="deadliftWeb">https://www.verywellfit.com/how-to-do-the-deadlift-3498608</string>
+    <string name="squatWeb">https://www.realsimple.com/health/fitness-exercise/workouts/squat-form</string>
+    <string name="benchWeb">https://hr.the-nutrition.com/single-clanak/Bench-press---Tehnika-izvođenja-i-savjeti/427/filtriraj-po/datum/rangirajuci/padajuce/cilj/vjezbe/stranica/2</string>
+    <string name="plankWeb">https://www.puregym.com/exercises/abs/planks/</string>
+    <string name="latWeb">https://www.puregym.com/exercises/back/lat-exercises/</string>
+    <string name="pullWeb">https://www.verywellfit.com/pullup-bar-exercises-for-upper-body-strength-3120735</string>
+    <string name="barbellWeb">https://www.menshealth.com/fitness/a42744729/barbell-curls/</string>
+    <string name="notification">New Notification</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="msg_token_fmt">Token: </string>
+
+</resources>
